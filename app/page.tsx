@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import {Activity} from "react";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
+          <Activity mode={"visible"}><p>Hello, Activities</p></Activity>
 
         <div className={styles.ctas}>
           <a
